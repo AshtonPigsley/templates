@@ -1,0 +1,125 @@
+/* RESET STYLES */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END OF RESET */
+.headcontainer{
+    position: relative;
+}
+.headback{
+    width: 100%;
+    height: 175px;
+    background-image: url(headimg.png);
+}
+.contentbox{
+    position: absolute;
+}
+.mlcont{
+    
+    border-right-style:dashed;
+    border-right-width: 4px;
+    border-color: #747474;
+    height:155px; 
+    width: 100%;
+    float: left;
+    padding: 1%;
+    display: inline-block;
+
+}
+
+.headtext{
+    font-family: sans-serif;
+    color: #d0391d;
+    font-size: 250%;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 0 2px 0 #f9ebd5, 0 14px 10px rgba(208, 57, 29, 0), 0 3px 0 rgba(208, 57, 29, 1);
+
+}
+.aboutbox{
+    border-bottom-style:dashed;
+    border-bottom-width: 4px;
+    border-color: #747474;
+    height: 65px;
+    padding-top: 18px;
+
+    
+}
+.locbox{
+    height: 65px;
+    padding-top: 18px;
+}
+.headlink{
+    text-decoration: none;
+}
+.lcont{
+    border-right-style:dashed;
+    border-right-width: 4px;
+    border-color: #747474;
+    height:155px; 
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+.lheadtext{
+    font-family: sans-serif;
+    color: #d0391d;
+    font-size: 400%;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 0 2px 0 #f9ebd5, 0 14px 10px rgba(208, 57, 29, 0), 0 3px 0 rgba(208, 57, 29, 1);
+    margin: 20% 0%;
+
+}
+.logo{
+     border-right-style:dashed;
+    border-right-width: 4px;
+    border-color: #747474;
+    position: absolute;
+    display: inline-block;
+    left: 210%;
+    
+    
+}

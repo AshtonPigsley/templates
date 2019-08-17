@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    </head>
+    <body>
+        <h1> Drop Down Example </h1>
+        <h1> Drop Down Example </h1>
+        <h3> 07/10/2019 </h3>
+        
+        <div class="product-drop">
+            <button onclick="clickdrop()" class="product-drop-button">
+                Products
+            </button>
+            <div id="prod-drop-menue" class="product-drop-content">
+                    <a href="#apples" class="pdmiapple"> Apples </a>
+                    <a href="#oranges" class="pdmioranges"> Oranges </a>
+                    <a href="#lemons" class="pdmilemons"> Lemons </a>
+                    <a href="#grapes" class="pdmigrapes"> Grapes </a>
+            </div>
+        </div>
+        
+        <div class="amt-drop">
+            <button id="amtd">
+                Amount
+            </button>
+            <div>
+            </div>
+        </div>
+        <script>
+            function clickdrop(){
+                document.getElementById("prod-drop-menue").classList.toggle("show");
+            }
+        </script>
+    </body>
+</html>

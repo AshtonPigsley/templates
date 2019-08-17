@@ -1,0 +1,33 @@
+Start Date: 08/13/2019
+End Date: 08/20/2019
+Goal: Organize files and make it as accessible as possible
+URL:https://blog-brigade.militaryonesource.mil/2016/01/25/how-to-make-new-years-goals-more-obtainable/
+
+Schedule
+__O__  08/13/2019 Tuesday - Sketch and initialize
+__O__  08/14/2019 Wednesday - Header
+__O__  08/15/2019 Thursday - Header
+__O__  08/16/2019 Friday - main
+__O__  08/17/2019 Saturday- Aside
+__O__  08/18/2019 Sunday - Main bottom
+__O__  08/19/2019 Monday- Footer
+__O__  08/20/2019 Tuesday - Finish and Deploy
+
+Notes
+08/20/2019
+    5:43 am
+    ----------------------------------------------------------------
+    Uploaded 08062019
+    Initialized text
+    
+    5:50 pm
+    ----------------------------------------------------------------
+    constructed schedule
+    Set up Preset
+    
+    
+    
+    
+    
+    
+    

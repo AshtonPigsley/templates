@@ -1,0 +1,191 @@
+
+/* RESET STYLES */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END OF RESET */
+
+header{
+    background-color: #1F365E;
+    height: 35px;
+
+}
+html{
+    height: 100%;
+    background-color: #F1F4F7;
+    
+}
+.tiptop{
+  margin: auto;
+    width: 700px;
+}
+
+.ltiptoptext{
+    color: white;
+    font-size: 10.5px;
+    padding-top: 5px;
+    font-family: sans-serif;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    letter-spacing: .35px;
+    bottom: 8px;
+}
+.tiptoplink{
+    color: #A6DDF1;
+    
+}
+.tipright{
+    display: inline-block;
+}
+.tiptoplink:hover{
+    color: #337ab7;
+}
+.DOD{
+    top: 10px;
+    width: 23px;
+    position: relative;
+    padding: 0px 18px;
+}
+.expansion{
+    display: inline-block;
+    background-color: #54647d;
+    color: white;
+    font-family: sans-serif;
+    font-size: 10.5px;
+    padding-right:  10px;
+    padding-left:  10px;
+    height: 20px;
+    width: 165px;
+    position: absolute;
+    top: 8px;
+    border-radius: 6px;
+    letter-spacing: .5px;
+}
+.expandtxt{
+    padding-left: 6px;
+    position: relative;
+    bottom: 6.5px;
+    display: inline;
+}
+.expansion svg{
+    display: inline;
+}
+.expansion svg text{
+    font-size: 18px;
+}
+.maincenter{
+    background-color: white;
+    margin: 0 auto;
+    width: 97%;
+    height: 100%;
+}
+.logo{
+    width: 80%;
+}
+.headsection{
+    padding: 25px 150px;
+    margin:auto 0;
+    height: 100px;
+}
+.Lsection{
+    display: inline-block;
+    float: left;
+}
+.Rsection{
+    display: inline-block;
+    float: right;
+}
+.inputtext{
+    width: 180px;
+    height: 18px;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 10px;
+    position: relative;
+    left: 45px;
+    border: none;
+    background-color: #F1F4F7;
+    box-shadow: 3px 3px 5px lightgray;  
+    font-weight: 700;
+    color: #1f1f1f;
+}
+::placeholder{
+    color: #1e1e1e;
+}
+.iconbox{
+    float: right;
+}
+.searchimg{
+    position: relative;
+    width: 16px;
+    top: 4px;
+}
+.fus{
+    width: 18px;
+    position: relative;
+    left: 150px;
+    top: 13px;
+}
+.tus{
+    width: 22px;
+    position: relative;
+    left: 168px;
+    top: 15px;
+}
+.pus{
+    width: 25px;
+    position: relative;
+    left: 178px;
+    top: 16px;
+}
+.ius{
+    width: 13px;
+    position: relative;
+    left: 196px;
+    top: 11px;
+}
+nav{
+    width: 100%;
+    background-color: #B21F16;
+}

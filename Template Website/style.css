@@ -1,0 +1,61 @@
+
+.head{
+    background-color: #004b62;
+}
+.logohead{
+    display: inline-flex;
+
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    float: right;
+    margin: 25px 25px;
+}
+.logoimg{
+    width: 200px;
+    height: 64px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.dropdwnbtn{
+    background-color: white;
+    color: black;
+    padding: 3px 5px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+.dropdwnbtn:hover{
+    background-color: lightgray;
+    
+}
+.dropdwncont{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    z-index: 1;
+    
+}
+.cat{
+    color:black;
+    padding: 3px 5px;
+    display: block;
+    text-decoration: none;
+    width: 140px;
+}
+.cat:hover{
+    background-color: lightgray;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.dropdown:hover .dropdwncont{
+    display: block;
+}
