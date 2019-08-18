@@ -1,0 +1,24 @@
+.fus{
+    width: 18px;
+    position: relative;
+    left: 150px;
+    top: 13px;
+}
+.tus{
+    width: 22px;
+    position: relative;
+    left: 168px;
+    top: 15px;
+}
+.pus{
+    width: 25px;
+    position: relative;
+    left: 178px;
+    top: 16px;
+}
+.ius{
+    width: 13px;
+    position: relative;
+    left: 196px;
+    top: 11px;
+}

@@ -162,10 +162,8 @@ html{
     top: 4px;
 }
 .fus{
-    width: 18px;
-    position: relative;
-    left: 150px;
-    top: 13px;
+    width: 100px;
+    height: 100px;
 }
 .tus{
     width: 22px;
@@ -179,11 +177,8 @@ html{
     left: 178px;
     top: 16px;
 }
-.ius{
-    width: 13px;
-    position: relative;
-    left: 196px;
-    top: 11px;
+circle:hover{
+    fill: #696969;
 }
 nav{
     width: 100%;
@@ -192,10 +187,22 @@ nav{
 .navlist{
     margin: 0 auto;
     width: 1100px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .navlist li{
-    display: inline-block;
-    padding: 15px 24px;
+    
+    padding: 12.5px 24px;
+     display: inline-flex;
+    
+    
+}
+.navlist li:hover{
+    background-color: darkred;
 }
 .navlist li a{
     text-decoration: none;
@@ -203,4 +210,5 @@ nav{
     font-family: sans-serif;
     text-align: center;
     font-size: 14px;
+    letter-spacing: .25px;
 }
