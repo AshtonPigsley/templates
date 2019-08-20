@@ -212,3 +212,27 @@ nav{
     font-size: 14px;
     letter-spacing: .25px;
 }
+
+.Lmain{
+    display: inline-block;
+}
+
+.aside{
+     display: inline-block;
+}
+.area{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+.mainimg{
+    width: 700px;
+    margin-right: 50px;
+}
+.asidecont1{
+    background-color: grey;
+    width: 150px;
+    position: relative;
+    
+    
+}
